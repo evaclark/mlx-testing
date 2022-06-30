@@ -1,3 +1,5 @@
+#NOT FINISHED
+
 NAME = tutorial
 
 SOURCES = main.c
