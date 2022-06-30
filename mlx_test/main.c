@@ -33,8 +33,9 @@ int	main()
 
 	mlx_ptr = mlx_init();
 	win_ptr = mlx_new_window(mlx_ptr, 700, 700, "window owo");
-	draw_line(mlx_ptr, win_ptr, 20, 20, 20, 400, 0xFFFFFF);
-	draw_line(mlx_ptr, win_ptr, 400, 20, 20, 400, 0xFFFFFF);
-	draw_line(mlx_ptr, win_ptr, 20, 20, 400, 20, 0xFFFFFF);
+	draw_line(mlx_ptr, win_ptr, 20, 20, 20, 400, 0x11FFFF);
+	draw_line(mlx_ptr, win_ptr, 400, 20, 400, 400, 0xFF11FF);
+	draw_line(mlx_ptr, win_ptr, 20, 20, 400, 20, 0xFFFF11);
+	draw_line(mlx_ptr, win_ptr, 400, 400, 20, 400, 0xFFFFFF);
 	mlx_loop(mlx_ptr);
 }
